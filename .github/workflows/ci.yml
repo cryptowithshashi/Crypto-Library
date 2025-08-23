@@ -1,0 +1,33 @@
+name: CI — markdown checks
+
+on:
+  pull_request:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  markdown-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install link-check & markdownlint
+        run: |
+          npm install -g markdownlint-cli
+          npm install -g markdown-link-check
+
+      - name: Run markdownlint
+        run: |
+          # run lint on all md files; exit code will fail the job on errors
+          markdownlint "**/*.md" --config .github/markdownlint.json || true
+
+      - name: Run markdown link check
+        run: |
+          # This will scan all markdown files and check external links
+          find . -name "*.md" -not -path "./node_modules/*" -print0 | xargs -0 -n1 -I {} sh -c 'echo "Checking {}" && markdown-link-check {} || true'
