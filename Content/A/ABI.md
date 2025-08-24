@@ -1,14 +1,13 @@
----
+<!--
 title: "Application Binary Interface (ABI)"
 slug: "abi"
-short: "Resources for understanding and using the ABI with EVM smart contracts — curated explainers, tutorials, videos, and tools."
+short: "Resources for understanding and using the ABI with EVM smart contracts."
 difficulty: "Beginner → Advanced"
-tags: ["solidity","ethereum","abi","ethers.js","dev-tools"]
-related: ["bytecode","contract-interface","events","calldata"]
+tags: ["solidity","ethereum","abi","dev-tools"]
 canonical: "https://docs.soliditylang.org/en/latest/abi-spec.html"
 last_reviewed: "2025-08-24"
 reviewer: "TBD"
----
+-->
 
 # Application Binary Interface
 
