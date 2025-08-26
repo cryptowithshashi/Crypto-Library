@@ -1,15 +1,3 @@
----
-title: "Anti-Money Laundering (AML) & Compliance"
-slug: "aml-compliance"
-filename: "A-AML-Compliance.md"
-tags: ["aml","compliance","kyc","kyb","sanctions","regulation","on-chain","off-chain"]
-difficulty: "Intermediate"
-jurisdictions: ["global"]
-last_updated: "2025-08-26"
-maintainer: "handle@example.org"
-license: "CC-BY-4.0"
----
-
 # Anti-Money Laundering (AML) & Compliance
 
 Comprehensive resource covering AML/CFT compliance for cryptocurrency and traditional finance, including regulatory guidance, implementation tools, and operational playbooks.
@@ -601,8 +589,6 @@ Respond to reviewer feedback within 7 days
 
 ### License & Disclaimer
 This resource is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Content is for educational and informational purposes only. Always consult qualified legal counsel for specific compliance requirements.
-
-### Disclaimer: 
 
 Regulatory requirements change frequently. Verify current requirements with appropriate authorities. Contributors are not responsible for the accuracy, completeness, or currency of external resources.
 
