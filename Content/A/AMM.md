@@ -43,7 +43,6 @@ AMMs are algorithmic trading protocols that enable decentralized token swaps usi
 | [Automated Market Makers: A Practical Guide to Decentralized Exchanges and Cryptocurrency Trading](https://annas-archive.org/slow_download/53f5790cfd1bbab5776e562b731df132/0/2) | N/A | Practical, AMM-focused book covering Uniswap, Curve, Balancer and worked examples; good for protocol-level intuition and code pointers. |
 | [DeFi and the Future of Finance](https://annas-archive.org/md5/5d3de50eaa5b6bdde688103459308e99) | N/A | Concise industry overview that explains DeFi primitives (including AMMs) and practical risk/governance considerations; great starting high-level read. |
 
----
 
 ### Token Design & Tokenomics
 
@@ -51,7 +50,6 @@ AMMs are algorithmic trading protocols that enable decentralized token swaps usi
 | :--- | :--- | :--- |
 | [Token Economy](https://annas-archive.org/md5/66f127120561294d18abec12e8ad1e22) | N/A | Rigorous treatment of token design, incentives and governance; helps understand why AMM parameters and fee models matter to tokenomics. |
 
----
 
 ### Smart Contract & Blockchain Engineering
 
@@ -59,7 +57,6 @@ AMMs are algorithmic trading protocols that enable decentralized token swaps usi
 | :--- | :--- | :--- |
 | [Mastering Ethereum](https://annas-archive.org/md5/81572c7e01c91ab833c132dfebe5449a) | Antonopoulos & Wood | Hands-on Ethereum dev book: smart-contract patterns, security, testing and how contracts interact with off-chain tooling. |
 
----
 
 ### Market Microstructure & Execution
 
@@ -68,6 +65,10 @@ AMMs are algorithmic trading protocols that enable decentralized token swaps usi
 | [Market Microstructure Theory](https://annas-archive.org/md5/60973c35892845b0ae3ef5dd8a6e66c4) | Maureen O’Hara | The canonical textbook on price impact, liquidity, and trade execution; provides the academic foundations for thinking about slippage and liquidity provision. |
 | [High-Frequency Trading: A Practical Guide](https://annas-archive.org/md5/ba5a95225f922ea47a236b5a9d3950ea) | Irene Aldridge | Useful for understanding market impact, latency, and MEV parallels. |
 | [Algorithmic Trading and DMA](https://annas-archive.org/md5/e8a3f780fb7625a2dcf1632825936fb7) | Barry Johnson | Practical reference on execution algorithms and order routing mechanics (helps translate order-book intuition into AMM impact thinking). |
+
+> [!NOTE]
+> Please be advised that the direct download links for the books in the crypto library repository are associated with a third-party website. If this website is unavailable, it may be due to regulatory changes.
+To ensure uninterrupted access to these resources, a public Google Drive folder containing all the books has been created. The access link can be found in the `Books.md` file within the repository. This shared drive is open to all users for educational and informational purposes.
 
 ## Tutorials & Walkthroughs
 
